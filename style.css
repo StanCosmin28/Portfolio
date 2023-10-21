@@ -772,14 +772,15 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
+  flex-wrap: nowrap;
   margin: 0px 0px 0px 30px;
 }
 .facebook,
 .instagram,
 .behance,
 .linkedin,
-.github {
+.github,
+.tiktok {
   display: block;
   width: 29px;
   height: 29px;
@@ -793,6 +794,10 @@ h1 {
   justify-content: center;
   align-items: center;
   transition: 0.3s;
+}
+
+.tiktok > a > img {
+  max-width: 20px;
 }
 .mail {
   border: 1px solid #3b3b3b;
@@ -855,6 +860,10 @@ h1 {
   scale: 130%;
   transition: 0.3s;
 }
+.tiktok:hover {
+  scale: 130%;
+  transition: 0.3s;
+}
 
 /* COPYRIGHTS SECTION */
 #copyright {
@@ -897,7 +906,7 @@ h1 {
     flex-direction: column;
   }
   .social-container {
-    margin: 10px 0px 0px 20px;
+    margin: 0px 0px 0px 20px;
     margin-top: 20px;
   }
   .footer-text > h2 {
@@ -917,7 +926,7 @@ h1 {
     background: transparent;
     padding: 3px;
     min-width: 30px;
-    margin-right: 18px;
+    margin-right: 12px;
     align-items: center;
   }
   .github {
@@ -929,6 +938,16 @@ h1 {
   }
   .github > a > img {
     min-width: 20px;
+  }
+  .tiktok {
+    background: transparent;
+    min-width: 30px;
+    padding: 3px;
+    margin-right: 18px;
+    align-items: center;
+  }
+  .tiktok > a > img {
+    max-width: 20px;
   }
   .mail {
     border: none;
