@@ -106,7 +106,7 @@ a {
   transition: 0.2s;
   color: rgb(13, 13, 13);
   background-color: rgba(245, 245, 245, 0.1);
-  background-image: url(./biofiles/bg.jpg);
+  background-image: url(./biofiles/bg2.png);
 
   background-position: center;
   /* filter: blur(10px); */
@@ -175,6 +175,7 @@ a {
   font-size: 1rem;
 }
 .logo-box {
+  overflow: hidden;
   display: flex;
   justify-content: center;
   margin: 15px 0px 30px 0px;
