@@ -95,6 +95,7 @@ a:hover {
   padding-top: 70px;
   margin: 0 auto;
   max-width: 80vw;
+  overflow: hidden;
 }
 .logo {
   width: 20vw /* 160px */;
@@ -1053,4 +1054,7 @@ h1 {
   .footer {
     margin-top: 40px;
   }
+}
+#paragraf {
+  overflow: hidden;
 }
