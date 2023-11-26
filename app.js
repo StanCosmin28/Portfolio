@@ -17,9 +17,9 @@ gsap.fromTo(
     repeat: -1,
   }
 );
-gsap.fromTo("#logosc", { x: 10000 }, { x: 0, duration: 1.5 }, "<");
+gsap.fromTo("#logosc", { x: 4000 }, { x: 0, duration: 1.5 }, "<");
 
-gsap.fromTo("h1", { x: -10000 }, { x: 0, duration: 1.5 }, "<");
+gsap.fromTo("h1", { x: -4000 }, { x: 0, duration: 1.5 }, "<");
 
 gsap.fromTo("#paragraf", { y: 1000 }, { y: 0, duration: 1.5, delay: 1 });
 
