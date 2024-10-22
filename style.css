@@ -373,7 +373,7 @@ h1 {
 }
 #box-img {
   width: 200px;
-  height: 215px;
+  height: 200px;
   min-width: 100px;
   min-height: 93px;
   max-width: 200px;
@@ -798,7 +798,7 @@ h1 {
 }
 
 .tiktok > a > img {
-  max-width: 20px;
+  max-width: 18px;
 }
 .mail {
   border: 1px solid #3b3b3b;
