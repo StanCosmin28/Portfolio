@@ -13,7 +13,7 @@ gsap.from("#poza", {
   },
 });
 
-gsap.from("h1,h5, #poza2", {
+gsap.from("h1, .position, #poza2", {
   opacity: 0,
   y: 30,
   duration: 1,
