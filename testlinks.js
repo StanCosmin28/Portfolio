@@ -1,15 +1,31 @@
-/* GSAP effect for the links */
+// /* GSAP effect for the links */
+// gsap.from("#poza", {
+//   opacity: 0,
+//   y: -1200,
+//   duration: 0.5,
+//   ease: "power.out",
+//   onComplete: function () {
+//     gsap.fromTo(
+//       "#poza",
+//       { y: -50 },
+//       { y: 0, duration: 1, yoyo: true, repeat: -1 }
+//     );
+//   },
+// });
 gsap.from("#poza", {
   opacity: 0,
   y: -1200,
-  duration: 0.5,
-  ease: "power.out",
+  duration: 2.5,
+  ease: "power4.out",
   onComplete: function () {
-    gsap.fromTo(
-      "#poza",
-      { y: -50 },
-      { y: 0, duration: 1, yoyo: true, repeat: -1 }
-    );
+    // Start infinite bouncing smoothly
+    gsap.to("#poza", {
+      y: -20, // Smaller bounce height for subtle effect
+      duration: 2,
+      yoyo: true,
+      repeat: -1,
+      ease: "power1.inOut",
+    });
   },
 });
 
